@@ -1,0 +1,1115 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Shreeja_Test.UnitTest1
+  commentId: T:ASE_Shreeja_Test.UnitTest1
+  id: UnitTest1
+  parent: ASE_Shreeja_Test
+  children:
+  - ASE_Shreeja_Test.UnitTest1.Circle_negative_radius
+  - ASE_Shreeja_Test.UnitTest1.Circle_outofbound_radius
+  - ASE_Shreeja_Test.UnitTest1.Circle_valid_radius
+  - ASE_Shreeja_Test.UnitTest1.Drawto_OutOfBound
+  - ASE_Shreeja_Test.UnitTest1.Drawto_negative_position
+  - ASE_Shreeja_Test.UnitTest1.Drawto_valid_position
+  - ASE_Shreeja_Test.UnitTest1.Moveto_OutOfBound
+  - ASE_Shreeja_Test.UnitTest1.Moveto_negative_position
+  - ASE_Shreeja_Test.UnitTest1.Moveto_valid_position
+  - ASE_Shreeja_Test.UnitTest1.Multi_line_method
+  - ASE_Shreeja_Test.UnitTest1.Rect_negative_parameter
+  - ASE_Shreeja_Test.UnitTest1.Rect_outofbound_parameter
+  - ASE_Shreeja_Test.UnitTest1.Rect_valid_parameters
+  - ASE_Shreeja_Test.UnitTest1.Write_null_parameter
+  - ASE_Shreeja_Test.UnitTest1.Write_test
+  - ASE_Shreeja_Test.UnitTest1.setup
+  langs:
+  - csharp
+  - vb
+  name: UnitTest1
+  nameWithType: UnitTest1
+  fullName: ASE_Shreeja_Test.UnitTest1
+  type: Class
+  source:
+    remote:
+      path: ASE Shreeja Test/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Shreejaaa.git
+    id: UnitTest1
+    path: ../ASE Shreeja Test/UnitTest1.cs
+    startLine: 6
+  assemblies:
+  - ASE Shreeja Test
+  namespace: ASE_Shreeja_Test
+  syntax:
+    content: >-
+      [TestClass]
+
+      public class UnitTest1
+    content.vb: >-
+      <TestClass>
+
+      Public Class UnitTest1
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: ASE_Shreeja_Test.UnitTest1.setup
+  commentId: M:ASE_Shreeja_Test.UnitTest1.setup
+  id: setup
+  parent: ASE_Shreeja_Test.UnitTest1
+  langs:
+  - csharp
+  - vb
+  name: setup()
+  nameWithType: UnitTest1.setup()
+  fullName: ASE_Shreeja_Test.UnitTest1.setup()
+  type: Method
+  source:
+    remote:
+      path: ASE Shreeja Test/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Shreejaaa.git
+    id: setup
+    path: ../ASE Shreeja Test/UnitTest1.cs
+    startLine: 11
+  assemblies:
+  - ASE Shreeja Test
+  namespace: ASE_Shreeja_Test
+  syntax:
+    content: >-
+      [TestInitialize]
+
+      public void setup()
+    content.vb: >-
+      <TestInitialize>
+
+      Public Sub setup()
+  overload: ASE_Shreeja_Test.UnitTest1.setup*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute.#ctor
+    arguments: []
+- uid: ASE_Shreeja_Test.UnitTest1.Moveto_valid_position
+  commentId: M:ASE_Shreeja_Test.UnitTest1.Moveto_valid_position
+  id: Moveto_valid_position
+  parent: ASE_Shreeja_Test.UnitTest1
+  langs:
+  - csharp
+  - vb
+  name: Moveto_valid_position()
+  nameWithType: UnitTest1.Moveto_valid_position()
+  fullName: ASE_Shreeja_Test.UnitTest1.Moveto_valid_position()
+  type: Method
+  source:
+    remote:
+      path: ASE Shreeja Test/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Shreejaaa.git
+    id: Moveto_valid_position
+    path: ../ASE Shreeja Test/UnitTest1.cs
+    startLine: 22
+  assemblies:
+  - ASE Shreeja Test
+  namespace: ASE_Shreeja_Test
+  summary: >-
+    Validates that the MoveTo method updates canvas position correctly
+
+    when given valid coordinates.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Moveto_valid_position()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Moveto_valid_position()
+  overload: ASE_Shreeja_Test.UnitTest1.Moveto_valid_position*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Shreeja_Test.UnitTest1.Moveto_negative_position
+  commentId: M:ASE_Shreeja_Test.UnitTest1.Moveto_negative_position
+  id: Moveto_negative_position
+  parent: ASE_Shreeja_Test.UnitTest1
+  langs:
+  - csharp
+  - vb
+  name: Moveto_negative_position()
+  nameWithType: UnitTest1.Moveto_negative_position()
+  fullName: ASE_Shreeja_Test.UnitTest1.Moveto_negative_position()
+  type: Method
+  source:
+    remote:
+      path: ASE Shreeja Test/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Shreejaaa.git
+    id: Moveto_negative_position
+    path: ../ASE Shreeja Test/UnitTest1.cs
+    startLine: 40
+  assemblies:
+  - ASE Shreeja Test
+  namespace: ASE_Shreeja_Test
+  summary: Verifies that MoveTo throws an exception when given negative coordinates.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(CanvasException), "Screen position (MoveTo) invalid")]
+
+      public void Moveto_negative_position()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(CanvasException), "Screen position (MoveTo) invalid")>
+
+      Public Sub Moveto_negative_position()
+  overload: ASE_Shreeja_Test.UnitTest1.Moveto_negative_position*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type,System.String)
+    arguments:
+    - type: System.Type
+      value: BOOSE.CanvasException
+    - type: System.String
+      value: Screen position (MoveTo) invalid
+- uid: ASE_Shreeja_Test.UnitTest1.Moveto_OutOfBound
+  commentId: M:ASE_Shreeja_Test.UnitTest1.Moveto_OutOfBound
+  id: Moveto_OutOfBound
+  parent: ASE_Shreeja_Test.UnitTest1
+  langs:
+  - csharp
+  - vb
+  name: Moveto_OutOfBound()
+  nameWithType: UnitTest1.Moveto_OutOfBound()
+  fullName: ASE_Shreeja_Test.UnitTest1.Moveto_OutOfBound()
+  type: Method
+  source:
+    remote:
+      path: ASE Shreeja Test/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Shreejaaa.git
+    id: Moveto_OutOfBound
+    path: ../ASE Shreeja Test/UnitTest1.cs
+    startLine: 55
+  assemblies:
+  - ASE Shreeja Test
+  namespace: ASE_Shreeja_Test
+  summary: Verifies that MoveTo throws an exception when given out-of-bound coordinates.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(CanvasException), "outofbound")]
+
+      public void Moveto_OutOfBound()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(CanvasException), "outofbound")>
+
+      Public Sub Moveto_OutOfBound()
+  overload: ASE_Shreeja_Test.UnitTest1.Moveto_OutOfBound*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type,System.String)
+    arguments:
+    - type: System.Type
+      value: BOOSE.CanvasException
+    - type: System.String
+      value: outofbound
+- uid: ASE_Shreeja_Test.UnitTest1.Drawto_valid_position
+  commentId: M:ASE_Shreeja_Test.UnitTest1.Drawto_valid_position
+  id: Drawto_valid_position
+  parent: ASE_Shreeja_Test.UnitTest1
+  langs:
+  - csharp
+  - vb
+  name: Drawto_valid_position()
+  nameWithType: UnitTest1.Drawto_valid_position()
+  fullName: ASE_Shreeja_Test.UnitTest1.Drawto_valid_position()
+  type: Method
+  source:
+    remote:
+      path: ASE Shreeja Test/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Shreejaaa.git
+    id: Drawto_valid_position
+    path: ../ASE Shreeja Test/UnitTest1.cs
+    startLine: 71
+  assemblies:
+  - ASE Shreeja Test
+  namespace: ASE_Shreeja_Test
+  summary: >-
+    Validates that the DrawTo method updates canvas position correctly
+
+    when given valid coordinates.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Drawto_valid_position()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Drawto_valid_position()
+  overload: ASE_Shreeja_Test.UnitTest1.Drawto_valid_position*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Shreeja_Test.UnitTest1.Drawto_negative_position
+  commentId: M:ASE_Shreeja_Test.UnitTest1.Drawto_negative_position
+  id: Drawto_negative_position
+  parent: ASE_Shreeja_Test.UnitTest1
+  langs:
+  - csharp
+  - vb
+  name: Drawto_negative_position()
+  nameWithType: UnitTest1.Drawto_negative_position()
+  fullName: ASE_Shreeja_Test.UnitTest1.Drawto_negative_position()
+  type: Method
+  source:
+    remote:
+      path: ASE Shreeja Test/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Shreejaaa.git
+    id: Drawto_negative_position
+    path: ../ASE Shreeja Test/UnitTest1.cs
+    startLine: 89
+  assemblies:
+  - ASE Shreeja Test
+  namespace: ASE_Shreeja_Test
+  summary: Verifies that DrawTo throws an exception when given negative coordinates.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(CanvasException), "negative position")]
+
+      public void Drawto_negative_position()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(CanvasException), "negative position")>
+
+      Public Sub Drawto_negative_position()
+  overload: ASE_Shreeja_Test.UnitTest1.Drawto_negative_position*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type,System.String)
+    arguments:
+    - type: System.Type
+      value: BOOSE.CanvasException
+    - type: System.String
+      value: negative position
+- uid: ASE_Shreeja_Test.UnitTest1.Drawto_OutOfBound
+  commentId: M:ASE_Shreeja_Test.UnitTest1.Drawto_OutOfBound
+  id: Drawto_OutOfBound
+  parent: ASE_Shreeja_Test.UnitTest1
+  langs:
+  - csharp
+  - vb
+  name: Drawto_OutOfBound()
+  nameWithType: UnitTest1.Drawto_OutOfBound()
+  fullName: ASE_Shreeja_Test.UnitTest1.Drawto_OutOfBound()
+  type: Method
+  source:
+    remote:
+      path: ASE Shreeja Test/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Shreejaaa.git
+    id: Drawto_OutOfBound
+    path: ../ASE Shreeja Test/UnitTest1.cs
+    startLine: 104
+  assemblies:
+  - ASE Shreeja Test
+  namespace: ASE_Shreeja_Test
+  summary: Verifies that DrawTo throws an exception when given out-of-bound coordinates.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(CanvasException), "outofbound")]
+
+      public void Drawto_OutOfBound()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(CanvasException), "outofbound")>
+
+      Public Sub Drawto_OutOfBound()
+  overload: ASE_Shreeja_Test.UnitTest1.Drawto_OutOfBound*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type,System.String)
+    arguments:
+    - type: System.Type
+      value: BOOSE.CanvasException
+    - type: System.String
+      value: outofbound
+- uid: ASE_Shreeja_Test.UnitTest1.Circle_valid_radius
+  commentId: M:ASE_Shreeja_Test.UnitTest1.Circle_valid_radius
+  id: Circle_valid_radius
+  parent: ASE_Shreeja_Test.UnitTest1
+  langs:
+  - csharp
+  - vb
+  name: Circle_valid_radius()
+  nameWithType: UnitTest1.Circle_valid_radius()
+  fullName: ASE_Shreeja_Test.UnitTest1.Circle_valid_radius()
+  type: Method
+  source:
+    remote:
+      path: ASE Shreeja Test/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Shreejaaa.git
+    id: Circle_valid_radius
+    path: ../ASE Shreeja Test/UnitTest1.cs
+    startLine: 119
+  assemblies:
+  - ASE Shreeja Test
+  namespace: ASE_Shreeja_Test
+  summary: Validates that the Circle method works correctly for valid radius values.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Circle_valid_radius()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Circle_valid_radius()
+  overload: ASE_Shreeja_Test.UnitTest1.Circle_valid_radius*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Shreeja_Test.UnitTest1.Circle_negative_radius
+  commentId: M:ASE_Shreeja_Test.UnitTest1.Circle_negative_radius
+  id: Circle_negative_radius
+  parent: ASE_Shreeja_Test.UnitTest1
+  langs:
+  - csharp
+  - vb
+  name: Circle_negative_radius()
+  nameWithType: UnitTest1.Circle_negative_radius()
+  fullName: ASE_Shreeja_Test.UnitTest1.Circle_negative_radius()
+  type: Method
+  source:
+    remote:
+      path: ASE Shreeja Test/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Shreejaaa.git
+    id: Circle_negative_radius
+    path: ../ASE Shreeja Test/UnitTest1.cs
+    startLine: 140
+  assemblies:
+  - ASE Shreeja Test
+  namespace: ASE_Shreeja_Test
+  summary: Verifies that Circle throws an exception when given a negative radius.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(CanvasException), "negative radius")]
+
+      public void Circle_negative_radius()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(CanvasException), "negative radius")>
+
+      Public Sub Circle_negative_radius()
+  overload: ASE_Shreeja_Test.UnitTest1.Circle_negative_radius*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type,System.String)
+    arguments:
+    - type: System.Type
+      value: BOOSE.CanvasException
+    - type: System.String
+      value: negative radius
+- uid: ASE_Shreeja_Test.UnitTest1.Circle_outofbound_radius
+  commentId: M:ASE_Shreeja_Test.UnitTest1.Circle_outofbound_radius
+  id: Circle_outofbound_radius
+  parent: ASE_Shreeja_Test.UnitTest1
+  langs:
+  - csharp
+  - vb
+  name: Circle_outofbound_radius()
+  nameWithType: UnitTest1.Circle_outofbound_radius()
+  fullName: ASE_Shreeja_Test.UnitTest1.Circle_outofbound_radius()
+  type: Method
+  source:
+    remote:
+      path: ASE Shreeja Test/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Shreejaaa.git
+    id: Circle_outofbound_radius
+    path: ../ASE Shreeja Test/UnitTest1.cs
+    startLine: 155
+  assemblies:
+  - ASE Shreeja Test
+  namespace: ASE_Shreeja_Test
+  summary: Verifies that Circle throws an exception when given an out-of-bound radius.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(CanvasException), "out of bound")]
+
+      public void Circle_outofbound_radius()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(CanvasException), "out of bound")>
+
+      Public Sub Circle_outofbound_radius()
+  overload: ASE_Shreeja_Test.UnitTest1.Circle_outofbound_radius*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type,System.String)
+    arguments:
+    - type: System.Type
+      value: BOOSE.CanvasException
+    - type: System.String
+      value: out of bound
+- uid: ASE_Shreeja_Test.UnitTest1.Rect_valid_parameters
+  commentId: M:ASE_Shreeja_Test.UnitTest1.Rect_valid_parameters
+  id: Rect_valid_parameters
+  parent: ASE_Shreeja_Test.UnitTest1
+  langs:
+  - csharp
+  - vb
+  name: Rect_valid_parameters()
+  nameWithType: UnitTest1.Rect_valid_parameters()
+  fullName: ASE_Shreeja_Test.UnitTest1.Rect_valid_parameters()
+  type: Method
+  source:
+    remote:
+      path: ASE Shreeja Test/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Shreejaaa.git
+    id: Rect_valid_parameters
+    path: ../ASE Shreeja Test/UnitTest1.cs
+    startLine: 170
+  assemblies:
+  - ASE Shreeja Test
+  namespace: ASE_Shreeja_Test
+  summary: Validates that the Rect method works correctly for valid dimensions.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Rect_valid_parameters()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Rect_valid_parameters()
+  overload: ASE_Shreeja_Test.UnitTest1.Rect_valid_parameters*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Shreeja_Test.UnitTest1.Rect_negative_parameter
+  commentId: M:ASE_Shreeja_Test.UnitTest1.Rect_negative_parameter
+  id: Rect_negative_parameter
+  parent: ASE_Shreeja_Test.UnitTest1
+  langs:
+  - csharp
+  - vb
+  name: Rect_negative_parameter()
+  nameWithType: UnitTest1.Rect_negative_parameter()
+  fullName: ASE_Shreeja_Test.UnitTest1.Rect_negative_parameter()
+  type: Method
+  source:
+    remote:
+      path: ASE Shreeja Test/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Shreejaaa.git
+    id: Rect_negative_parameter
+    path: ../ASE Shreeja Test/UnitTest1.cs
+    startLine: 192
+  assemblies:
+  - ASE Shreeja Test
+  namespace: ASE_Shreeja_Test
+  summary: Verifies that Rect throws an exception when given negative dimensions.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(CanvasException), "negative parameter")]
+
+      public void Rect_negative_parameter()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(CanvasException), "negative parameter")>
+
+      Public Sub Rect_negative_parameter()
+  overload: ASE_Shreeja_Test.UnitTest1.Rect_negative_parameter*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type,System.String)
+    arguments:
+    - type: System.Type
+      value: BOOSE.CanvasException
+    - type: System.String
+      value: negative parameter
+- uid: ASE_Shreeja_Test.UnitTest1.Rect_outofbound_parameter
+  commentId: M:ASE_Shreeja_Test.UnitTest1.Rect_outofbound_parameter
+  id: Rect_outofbound_parameter
+  parent: ASE_Shreeja_Test.UnitTest1
+  langs:
+  - csharp
+  - vb
+  name: Rect_outofbound_parameter()
+  nameWithType: UnitTest1.Rect_outofbound_parameter()
+  fullName: ASE_Shreeja_Test.UnitTest1.Rect_outofbound_parameter()
+  type: Method
+  source:
+    remote:
+      path: ASE Shreeja Test/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Shreejaaa.git
+    id: Rect_outofbound_parameter
+    path: ../ASE Shreeja Test/UnitTest1.cs
+    startLine: 208
+  assemblies:
+  - ASE Shreeja Test
+  namespace: ASE_Shreeja_Test
+  summary: Verifies that Rect throws an exception when given out-of-bound dimensions.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(CanvasException), "out of bound")]
+
+      public void Rect_outofbound_parameter()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(CanvasException), "out of bound")>
+
+      Public Sub Rect_outofbound_parameter()
+  overload: ASE_Shreeja_Test.UnitTest1.Rect_outofbound_parameter*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type,System.String)
+    arguments:
+    - type: System.Type
+      value: BOOSE.CanvasException
+    - type: System.String
+      value: out of bound
+- uid: ASE_Shreeja_Test.UnitTest1.Write_test
+  commentId: M:ASE_Shreeja_Test.UnitTest1.Write_test
+  id: Write_test
+  parent: ASE_Shreeja_Test.UnitTest1
+  langs:
+  - csharp
+  - vb
+  name: Write_test()
+  nameWithType: UnitTest1.Write_test()
+  fullName: ASE_Shreeja_Test.UnitTest1.Write_test()
+  type: Method
+  source:
+    remote:
+      path: ASE Shreeja Test/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Shreejaaa.git
+    id: Write_test
+    path: ../ASE Shreeja Test/UnitTest1.cs
+    startLine: 224
+  assemblies:
+  - ASE Shreeja Test
+  namespace: ASE_Shreeja_Test
+  summary: Validates the WriteText method for valid string input.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Write_test()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Write_test()
+  overload: ASE_Shreeja_Test.UnitTest1.Write_test*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Shreeja_Test.UnitTest1.Write_null_parameter
+  commentId: M:ASE_Shreeja_Test.UnitTest1.Write_null_parameter
+  id: Write_null_parameter
+  parent: ASE_Shreeja_Test.UnitTest1
+  langs:
+  - csharp
+  - vb
+  name: Write_null_parameter()
+  nameWithType: UnitTest1.Write_null_parameter()
+  fullName: ASE_Shreeja_Test.UnitTest1.Write_null_parameter()
+  type: Method
+  source:
+    remote:
+      path: ASE Shreeja Test/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Shreejaaa.git
+    id: Write_null_parameter
+    path: ../ASE Shreeja Test/UnitTest1.cs
+    startLine: 237
+  assemblies:
+  - ASE Shreeja Test
+  namespace: ASE_Shreeja_Test
+  summary: Verifies that WriteText throws an exception when given null input.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(CanvasException), "null parameter")]
+
+      public void Write_null_parameter()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(CanvasException), "null parameter")>
+
+      Public Sub Write_null_parameter()
+  overload: ASE_Shreeja_Test.UnitTest1.Write_null_parameter*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type,System.String)
+    arguments:
+    - type: System.Type
+      value: BOOSE.CanvasException
+    - type: System.String
+      value: null parameter
+- uid: ASE_Shreeja_Test.UnitTest1.Multi_line_method
+  commentId: M:ASE_Shreeja_Test.UnitTest1.Multi_line_method
+  id: Multi_line_method
+  parent: ASE_Shreeja_Test.UnitTest1
+  langs:
+  - csharp
+  - vb
+  name: Multi_line_method()
+  nameWithType: UnitTest1.Multi_line_method()
+  fullName: ASE_Shreeja_Test.UnitTest1.Multi_line_method()
+  type: Method
+  source:
+    remote:
+      path: ASE Shreeja Test/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Shreejaaa.git
+    id: Multi_line_method
+    path: ../ASE Shreeja Test/UnitTest1.cs
+    startLine: 251
+  assemblies:
+  - ASE Shreeja Test
+  namespace: ASE_Shreeja_Test
+  summary: Tests multiple canvas operations sequentially for integration testing.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Multi_line_method()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Multi_line_method()
+  overload: ASE_Shreeja_Test.UnitTest1.Multi_line_method*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: ASE_Shreeja_Test
+  commentId: N:ASE_Shreeja_Test
+  href: ASE_Shreeja_Test.html
+  name: ASE_Shreeja_Test
+  nameWithType: ASE_Shreeja_Test
+  fullName: ASE_Shreeja_Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ASE_Shreeja_Test.UnitTest1.setup*
+  commentId: Overload:ASE_Shreeja_Test.UnitTest1.setup
+  href: ASE_Shreeja_Test.UnitTest1.html#ASE_Shreeja_Test_UnitTest1_setup
+  name: setup
+  nameWithType: UnitTest1.setup
+  fullName: ASE_Shreeja_Test.UnitTest1.setup
+- uid: ASE_Shreeja_Test.UnitTest1.Moveto_valid_position*
+  commentId: Overload:ASE_Shreeja_Test.UnitTest1.Moveto_valid_position
+  href: ASE_Shreeja_Test.UnitTest1.html#ASE_Shreeja_Test_UnitTest1_Moveto_valid_position
+  name: Moveto_valid_position
+  nameWithType: UnitTest1.Moveto_valid_position
+  fullName: ASE_Shreeja_Test.UnitTest1.Moveto_valid_position
+- uid: ASE_Shreeja_Test.UnitTest1.Moveto_negative_position*
+  commentId: Overload:ASE_Shreeja_Test.UnitTest1.Moveto_negative_position
+  href: ASE_Shreeja_Test.UnitTest1.html#ASE_Shreeja_Test_UnitTest1_Moveto_negative_position
+  name: Moveto_negative_position
+  nameWithType: UnitTest1.Moveto_negative_position
+  fullName: ASE_Shreeja_Test.UnitTest1.Moveto_negative_position
+- uid: ASE_Shreeja_Test.UnitTest1.Moveto_OutOfBound*
+  commentId: Overload:ASE_Shreeja_Test.UnitTest1.Moveto_OutOfBound
+  href: ASE_Shreeja_Test.UnitTest1.html#ASE_Shreeja_Test_UnitTest1_Moveto_OutOfBound
+  name: Moveto_OutOfBound
+  nameWithType: UnitTest1.Moveto_OutOfBound
+  fullName: ASE_Shreeja_Test.UnitTest1.Moveto_OutOfBound
+- uid: ASE_Shreeja_Test.UnitTest1.Drawto_valid_position*
+  commentId: Overload:ASE_Shreeja_Test.UnitTest1.Drawto_valid_position
+  href: ASE_Shreeja_Test.UnitTest1.html#ASE_Shreeja_Test_UnitTest1_Drawto_valid_position
+  name: Drawto_valid_position
+  nameWithType: UnitTest1.Drawto_valid_position
+  fullName: ASE_Shreeja_Test.UnitTest1.Drawto_valid_position
+- uid: ASE_Shreeja_Test.UnitTest1.Drawto_negative_position*
+  commentId: Overload:ASE_Shreeja_Test.UnitTest1.Drawto_negative_position
+  href: ASE_Shreeja_Test.UnitTest1.html#ASE_Shreeja_Test_UnitTest1_Drawto_negative_position
+  name: Drawto_negative_position
+  nameWithType: UnitTest1.Drawto_negative_position
+  fullName: ASE_Shreeja_Test.UnitTest1.Drawto_negative_position
+- uid: ASE_Shreeja_Test.UnitTest1.Drawto_OutOfBound*
+  commentId: Overload:ASE_Shreeja_Test.UnitTest1.Drawto_OutOfBound
+  href: ASE_Shreeja_Test.UnitTest1.html#ASE_Shreeja_Test_UnitTest1_Drawto_OutOfBound
+  name: Drawto_OutOfBound
+  nameWithType: UnitTest1.Drawto_OutOfBound
+  fullName: ASE_Shreeja_Test.UnitTest1.Drawto_OutOfBound
+- uid: ASE_Shreeja_Test.UnitTest1.Circle_valid_radius*
+  commentId: Overload:ASE_Shreeja_Test.UnitTest1.Circle_valid_radius
+  href: ASE_Shreeja_Test.UnitTest1.html#ASE_Shreeja_Test_UnitTest1_Circle_valid_radius
+  name: Circle_valid_radius
+  nameWithType: UnitTest1.Circle_valid_radius
+  fullName: ASE_Shreeja_Test.UnitTest1.Circle_valid_radius
+- uid: ASE_Shreeja_Test.UnitTest1.Circle_negative_radius*
+  commentId: Overload:ASE_Shreeja_Test.UnitTest1.Circle_negative_radius
+  href: ASE_Shreeja_Test.UnitTest1.html#ASE_Shreeja_Test_UnitTest1_Circle_negative_radius
+  name: Circle_negative_radius
+  nameWithType: UnitTest1.Circle_negative_radius
+  fullName: ASE_Shreeja_Test.UnitTest1.Circle_negative_radius
+- uid: ASE_Shreeja_Test.UnitTest1.Circle_outofbound_radius*
+  commentId: Overload:ASE_Shreeja_Test.UnitTest1.Circle_outofbound_radius
+  href: ASE_Shreeja_Test.UnitTest1.html#ASE_Shreeja_Test_UnitTest1_Circle_outofbound_radius
+  name: Circle_outofbound_radius
+  nameWithType: UnitTest1.Circle_outofbound_radius
+  fullName: ASE_Shreeja_Test.UnitTest1.Circle_outofbound_radius
+- uid: ASE_Shreeja_Test.UnitTest1.Rect_valid_parameters*
+  commentId: Overload:ASE_Shreeja_Test.UnitTest1.Rect_valid_parameters
+  href: ASE_Shreeja_Test.UnitTest1.html#ASE_Shreeja_Test_UnitTest1_Rect_valid_parameters
+  name: Rect_valid_parameters
+  nameWithType: UnitTest1.Rect_valid_parameters
+  fullName: ASE_Shreeja_Test.UnitTest1.Rect_valid_parameters
+- uid: ASE_Shreeja_Test.UnitTest1.Rect_negative_parameter*
+  commentId: Overload:ASE_Shreeja_Test.UnitTest1.Rect_negative_parameter
+  href: ASE_Shreeja_Test.UnitTest1.html#ASE_Shreeja_Test_UnitTest1_Rect_negative_parameter
+  name: Rect_negative_parameter
+  nameWithType: UnitTest1.Rect_negative_parameter
+  fullName: ASE_Shreeja_Test.UnitTest1.Rect_negative_parameter
+- uid: ASE_Shreeja_Test.UnitTest1.Rect_outofbound_parameter*
+  commentId: Overload:ASE_Shreeja_Test.UnitTest1.Rect_outofbound_parameter
+  href: ASE_Shreeja_Test.UnitTest1.html#ASE_Shreeja_Test_UnitTest1_Rect_outofbound_parameter
+  name: Rect_outofbound_parameter
+  nameWithType: UnitTest1.Rect_outofbound_parameter
+  fullName: ASE_Shreeja_Test.UnitTest1.Rect_outofbound_parameter
+- uid: ASE_Shreeja_Test.UnitTest1.Write_test*
+  commentId: Overload:ASE_Shreeja_Test.UnitTest1.Write_test
+  href: ASE_Shreeja_Test.UnitTest1.html#ASE_Shreeja_Test_UnitTest1_Write_test
+  name: Write_test
+  nameWithType: UnitTest1.Write_test
+  fullName: ASE_Shreeja_Test.UnitTest1.Write_test
+- uid: ASE_Shreeja_Test.UnitTest1.Write_null_parameter*
+  commentId: Overload:ASE_Shreeja_Test.UnitTest1.Write_null_parameter
+  href: ASE_Shreeja_Test.UnitTest1.html#ASE_Shreeja_Test_UnitTest1_Write_null_parameter
+  name: Write_null_parameter
+  nameWithType: UnitTest1.Write_null_parameter
+  fullName: ASE_Shreeja_Test.UnitTest1.Write_null_parameter
+- uid: ASE_Shreeja_Test.UnitTest1.Multi_line_method*
+  commentId: Overload:ASE_Shreeja_Test.UnitTest1.Multi_line_method
+  href: ASE_Shreeja_Test.UnitTest1.html#ASE_Shreeja_Test_UnitTest1_Multi_line_method
+  name: Multi_line_method
+  nameWithType: UnitTest1.Multi_line_method
+  fullName: ASE_Shreeja_Test.UnitTest1.Multi_line_method

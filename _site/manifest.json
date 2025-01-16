@@ -1,0 +1,358 @@
+{
+  "source_base_path": "C:/Users/Shreeja/Desktop/ASE_Component2/ASE Shreeja Neupane",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Shreeja_Neupane.AppArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Shreeja_Neupane.AppArray.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Shreeja_Neupane.AppCall.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Shreeja_Neupane.AppCall.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Shreeja_Neupane.AppCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Shreeja_Neupane.AppCanvas.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Shreeja_Neupane.AppCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Shreeja_Neupane.AppCircle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Shreeja_Neupane.AppClear.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Shreeja_Neupane.AppClear.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Shreeja_Neupane.AppCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Shreeja_Neupane.AppCommandFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Shreeja_Neupane.AppElse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Shreeja_Neupane.AppElse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Shreeja_Neupane.AppEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Shreeja_Neupane.AppEnd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Shreeja_Neupane.AppFor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Shreeja_Neupane.AppFor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Shreeja_Neupane.AppIf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Shreeja_Neupane.AppIf.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Shreeja_Neupane.AppInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Shreeja_Neupane.AppInt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Shreeja_Neupane.AppMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Shreeja_Neupane.AppMethod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Shreeja_Neupane.AppParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Shreeja_Neupane.AppParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Shreeja_Neupane.AppReal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Shreeja_Neupane.AppReal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Shreeja_Neupane.AppRectangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Shreeja_Neupane.AppRectangle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Shreeja_Neupane.AppReset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Shreeja_Neupane.AppReset.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Shreeja_Neupane.AppStoredProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Shreeja_Neupane.AppStoredProgram.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Shreeja_Neupane.AppTriangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Shreeja_Neupane.AppTriangle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Shreeja_Neupane.AppWhile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Shreeja_Neupane.AppWhile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Shreeja_Neupane.AppWrite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Shreeja_Neupane.AppWrite.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Shreeja_Neupane.FileManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Shreeja_Neupane.FileManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Shreeja_Neupane.Form1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Shreeja_Neupane.Form1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Shreeja_Neupane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Shreeja_Neupane.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Shreeja_Test.Component2TestCases.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Shreeja_Test.Component2TestCases.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Shreeja_Test.UnitTest1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Shreeja_Test.UnitTest1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Shreeja_Test.UnitTest2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Shreeja_Test.UnitTest2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Shreeja_Test.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Shreeja_Test.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

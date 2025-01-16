@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Shreeja_Test
+  commentId: N:ASE_Shreeja_Test
+  id: ASE_Shreeja_Test
+  children:
+  - ASE_Shreeja_Test.UnitTest1
+  - ASE_Shreeja_Test.UnitTest2
+  langs:
+  - csharp
+  - vb
+  name: ASE_Shreeja_Test
+  nameWithType: ASE_Shreeja_Test
+  fullName: ASE_Shreeja_Test
+  type: Namespace
+  assemblies:
+  - ASE Shreeja Test
+references:
+- uid: ASE_Shreeja_Test.UnitTest1
+  commentId: T:ASE_Shreeja_Test.UnitTest1
+  href: ASE_Shreeja_Test.UnitTest1.html
+  name: UnitTest1
+  nameWithType: UnitTest1
+  fullName: ASE_Shreeja_Test.UnitTest1
+- uid: ASE_Shreeja_Test.UnitTest2
+  commentId: T:ASE_Shreeja_Test.UnitTest2
+  href: ASE_Shreeja_Test.UnitTest2.html
+  name: UnitTest2
+  nameWithType: UnitTest2
+  fullName: ASE_Shreeja_Test.UnitTest2
